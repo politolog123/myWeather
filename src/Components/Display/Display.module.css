@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+.cardWrapper{
+    display: flex;
+    margin: 40px 0;
+    height: 78vh;
+}
+
+.wrap{
+position: relative;
+background: url('/src/Components/sky-clouds-dark-clouds-storm-clouds-dark-sky-storm-weather-gloomy.jpg')no-repeat center center/cover;
+z-index: -2;
+}
+
+.text{
+    text-align: center;
+    margin: 0;
+}
+
+@media screen and (max-width:480px) {
+    .text{
+        font-size: 15px;
+    }
+    .text{
+        text-align: center;
+        font-size: 31px;
+        margin: 30px auto;
+        padding-top: 20px;
+        color: white;
+        font-family:'Courier New', Courier, monospace;
+    }
+    .wrap{
+        position: relative;
+        background: url('/src/Components/sky-clouds-dark-clouds-storm-clouds-dark-sky-storm-weather-gloomy.jpg')no-repeat center center/cover;
+        z-index: -2;
+        max-width: 480px;
+        height: 3300px;
+        text-align: center;
+        }
+        .cardWrapper{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin: 50px auto;
+            height: 3100px;
+        }
+}
+
+@media screen and (max-width:375px) {
+    .text{
+        font-size: 15px;
+    }
+    .text{
+        text-align: center;
+        font-size: 31px;
+        margin: 30px auto;
+        padding-top: 20px;
+        color: white;
+        font-family:'Courier New', Courier, monospace;
+    }
+    .wrap{
+        position: relative;
+        background: url('/src/Components/sky-clouds-dark-clouds-storm-clouds-dark-sky-storm-weather-gloomy.jpg')no-repeat center center/cover;
+        z-index: -2;
+        max-width: 480px;
+        height: 3300px;
+        text-align: center;
+        }
+        .cardWrapper{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin: 50px auto;
+            height: 3100px;
+        }
+}
